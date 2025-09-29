@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Environment and runtime data
+.env
+.env.local
+n8n_data/
+
+# Local artifacts
+exports/*
+!exports/.gitkeep
+recordings/
+
+# Editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/settings.json
